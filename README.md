@@ -4,18 +4,26 @@ https://github.com/NVIDIA/pix2pixHD.
 This version does not (yet) implement instance labels or VGG feature loss.（このバージョンでは，まだインスタンスラベルやVGG特徴量の損失は実装されていません．）
 
 # Example
-<table border="1" cellspacing="0" cellpadding="1">
+<table border="0">
 <tr>
 <td><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_lbl.png"></td>
 <td><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_lbl.png"></td>
 </tr>
 </table>
 
- <img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_gen.png?raw=true"><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_gen.png?raw=true">
- <img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_img.png?raw=true"><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_img.png?raw=true">
+<table border="0">
+<tr>
+<td><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_gen.png"></td>
+<td><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_gen.png"></td>
+</tr>
+</table>
 
-
-From the left side: input, output, ground_truth
+<table border="0">
+<tr>
+<td><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_img.png"></td>
+<td><img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_img.png"></td>
+</tr>
+</table>
  
 # Setup
 pip install -r requirements.txt
