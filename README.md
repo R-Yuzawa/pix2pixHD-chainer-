@@ -4,7 +4,7 @@ https://github.com/NVIDIA/pix2pixHD.
 This version does not (yet) implement instance labels or VGG feature loss.（このバージョンでは，まだインスタンスラベルやVGG特徴量の損失は実装されていません．）
 
 # Example
-	https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_lbl.png
+	
 	https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_lbl.png
  
 	https://github.com/rcalland/chainer-pix2pixHD/blob/master/images
@@ -12,6 +12,9 @@ This version does not (yet) implement instance labels or VGG feature loss.（こ
  
  https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_img.png
  https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/440_img.png
+ 
+ <img src="https://github.com/rcalland/chainer-pix2pixHD/blob/master/images/37_lbl.png?raw=true">
+From the left side: input, output, ground_truth
  
 # Setup
 pip install -r requirements.txt
