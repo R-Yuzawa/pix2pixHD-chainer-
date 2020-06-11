@@ -25,7 +25,7 @@
 </tr>
 </table>
 
-画像は，上段からラベルマップ（なぜ黒い？），Pix2pixかCRNの結果，Pix2pixHDの結果である．
+* 画像は，上段からラベルマップ（なぜ黒い？），Pix2pixかCRNの結果，Pix2pixHDの結果である．
  
 # Setup／初期設定
 * `pip install -r requirements.txt`
@@ -36,7 +36,7 @@
 * To reproduce the results on cityscapes at `512x1024` resolution, first pretrain the global generator at `256x512`:
 （解像度 `512x1024` で街並みを再現するためには，まず解像度 `256x512` で大域ジェネレータを事前学習する必要がある．）
 * `python tools/train.py -g <gpu> -G GlobalGenerator -o out/pretrained_global/ --config configs/cityscapes_256.json`
-* Then tune the full model at `512x1024` using the results of the pretraining;
+* Then tune the full model at `512x1024` using the results of the pretraining:
 （次に，事前学習の結果を用いて， `512x1024` でフルモデルをチューニングする．）
 * `python tools/train.py -g <gpu> -G MultiScaleGenerator -o out/total/ --global_generator_model out/pretrained_global/generator_model_200 --fix_global_num_epochs 10 --config configs/cityscapes_512.json`
  
